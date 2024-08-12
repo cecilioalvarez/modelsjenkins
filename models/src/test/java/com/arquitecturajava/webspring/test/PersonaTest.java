@@ -20,4 +20,50 @@ class PersonaTest {
 	}
 	
 
+	@Test
+	void mayorEdadTest5() {
+		//AAA
+		
+	//arrange preparar
+	Persona p= new Persona("pepe",20);
+	boolean esMayor=p.esMayorEdad();
+	assertTrue(esMayor);
+	
+	}
+	
+
+	@Test
+	void mayorEdadTest2() {
+		//AAA
+		
+	//arrange preparar
+	Persona p= new Persona("pepe",20);
+	boolean esMayor=p.esMayorEdad();
+	assertTrue(esMayor);
+	
+	}
+
+	@Test
+	void mayorEdadTest3() {
+		//AAA
+		
+	//arrange preparar
+	Persona p= new Persona("pepe",20);
+	boolean esMayor=p.esMayorEdad();
+	assertTrue(esMayor);
+	
+	}
+
+	@Test
+	void mayorEdadTest4() {
+		//AAA
+		
+	//arrange preparar
+	Persona p= new Persona("pepe",10);
+	boolean esMayor=p.esMayorEdad();
+	assertTrue(esMayor);
+	
+	}
+	
+
 }
